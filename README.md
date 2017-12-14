@@ -52,7 +52,7 @@ The requests to the server are deliberately staggered to prevent overloading the
 
 The images can be served from their remote resize-inator (remoteImage property), but it's easy enough to save the thumbnails by visiting the site and "saving" the page (https://beta.parliament.uk/houses/1AFu55Hs/members/current). The images are then stored locally to your disk at the right size and in the format `${id}.jpeg`.
 
-For my client, I have added them to an images directory so I don't hit their image server at all (localImage property).
+For my React client, I have added them to an images directory so I don't hit their image server at all (localImage property).
 
 ```sh
 	yarn
