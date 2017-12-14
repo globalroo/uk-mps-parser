@@ -1,24 +1,22 @@
 # uk-mps-parser [![Build Status](https://travis-ci.org/globalroo/uk-mps-parser.svg?branch=master)](https://travis-ci.org/globalroo/uk-mps-parser)[![Dependency Status](https://dependencyci.com/github/globalroo/uk-mps-parser/badge)](https://dependencyci.com/github/globalroo/uk-mps-parser)[![codecov](https://codecov.io/gh/globalroo/uk-mps-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/uk-mps-parser)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-# uk-mps-parser
-
 ## Brief description
 
-A list of all current UK-MPs (with images) pulled from the excellent new beta parliament site https://beta.parliament.uk/.
+A list of all current UK-MPs (with image-links) pulled from the excellent new beta parliament site https://beta.parliament.uk/.
 
-Read the story about how the content team, got all these images. https://pds.blog.parliament.uk/2017/07/21/mp-official-portraits-open-source-images/
+Read the story about how the content team, got all the images referred to in the data. https://pds.blog.parliament.uk/2017/07/21/mp-official-portraits-open-source-images/
 
 Motivation? I'm listening to https://www.amazon.co.uk/Quantum-Memory-Power-Improve-Champion/dp/0743528662 at the moment, and one of the first chapters is about memorising names and faces. I figured it would be good to do this with our members of parliament, then I saw the APIs and thought it would be fun to combine two activities.
 
-In order to make a usable client, I needed a way to grab all of the MPs here:
+__In order to make a usable client, I needed a way to grab all of the MPs here:__
 
 https://api.parliament.uk/Live/fixed-query/house_current_members?house_id=1AFu55Hs&format=application%2Fjson
 
-and their individual records here:
+__and their individual records here:__
 
 https://api.parliament.uk/Live/fixed-query/person_by_id?person_id=${ix}&format=application%2Fjson
 
-into something more manageable, like this:
+__into something more manageable, like this:__
 
 ```json
 [{
