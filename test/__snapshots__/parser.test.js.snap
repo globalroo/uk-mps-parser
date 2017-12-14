@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Parser Get all members from the mock endpoint (unformatted) 1`] = `
+Object {
+  "_:node333084": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "M",
+      },
+    ],
+  },
+  "_:node333085": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "D",
+      },
+    ],
+  },
+  "_:node333086": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "F",
+      },
+    ],
+  },
+  "_:node333087": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "H",
+      },
+    ],
+  },
+  "_:node333088": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "B",
+      },
+    ],
+  },
+  "_:node333089": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "C",
+      },
+    ],
+  },
+  "_:node333090": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "J",
+      },
+    ],
+  },
+  "_:node333091": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "R",
+      },
+    ],
+  },
+  "_:node333092": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "G",
+      },
+    ],
+  },
+  "_:node333093": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "L",
+      },
+    ],
+  },
+  "_:node333094": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "W",
+      },
+    ],
+  },
+  "_:node333095": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "N",
+      },
+    ],
+  },
+  "_:node333096": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "T",
+      },
+    ],
+  },
+  "_:node333097": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "S",
+      },
+    ],
+  },
+  "_:node333098": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "E",
+      },
+    ],
+  },
+  "_:node333099": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "O",
+      },
+    ],
+  },
+  "_:node333100": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "Q",
+      },
+    ],
+  },
+  "_:node333101": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "P",
+      },
+    ],
+  },
+  "_:node333102": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "A",
+      },
+    ],
+  },
+  "_:node333103": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "K",
+      },
+    ],
+  },
+  "_:node333104": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "V",
+      },
+    ],
+  },
+  "_:node333105": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "Y",
+      },
+    ],
+  },
+  "_:node333106": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "Z",
+      },
+    ],
+  },
+  "_:node333107": Object {
+    "https://id.parliament.uk/schema/value": Array [
+      Object {
+        "type": "literal",
+        "value": "U",
+      },
+    ],
+  },
+  "https://id.parliament.uk/00CE8Ogo": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/MemberImage",
+      },
+    ],
+  },
+  "https://id.parliament.uk/05K847KM": Object {
+    "http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C": Array [
+      Object {
+        "type": "literal",
+        "value": "Poulter, Dr Dan",
+      },
+    ],
+    "http://example.com/F31CBD81AD8343898B49DC65743F0BDF": Array [
+      Object {
+        "type": "literal",
+        "value": "Dr Dan Poulter",
+      },
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/Person",
+      },
+    ],
+    "https://id.parliament.uk/schema/memberHasParliamentaryIncumbency": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/H0rWh3BH",
+      },
+    ],
+    "https://id.parliament.uk/schema/partyMemberHasPartyMembership": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/ZgVYspo9",
+      },
+    ],
+    "https://id.parliament.uk/schema/personFamilyName": Array [
+      Object {
+        "type": "literal",
+        "value": "Poulter",
+      },
+    ],
+    "https://id.parliament.uk/schema/personGivenName": Array [
+      Object {
+        "type": "literal",
+        "value": "Daniel",
+      },
+    ],
+  },
+  "https://id.parliament.uk/05QF1L76": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/HouseSeat",
+      },
+    ],
+    "https://id.parliament.uk/schema/houseSeatHasConstituencyGroup": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/pd4P3mjt",
+      },
+    ],
+    "https://id.parliament.uk/schema/houseSeatHasHouse": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/1AFu55Hs",
+      },
+    ],
+  },
+  "https://id.parliament.uk/05XuQNiy": Object {
+    "http://example.com/A5EE13ABE03C4D3A8F1A274F57097B6C": Array [
+      Object {
+        "type": "literal",
+        "value": "Rashid, Faisal",
+      },
+    ],
+    "http://example.com/F31CBD81AD8343898B49DC65743F0BDF": Array [
+      Object {
+        "type": "literal",
+        "value": "Faisal Rashid",
+      },
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/Person",
+      },
+    ],
+    "https://id.parliament.uk/schema/memberHasMemberImage": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/iXhmOyaH",
+      },
+    ],
+    "https://id.parliament.uk/schema/memberHasParliamentaryIncumbency": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/IqW5lUGN",
+      },
+    ],
+    "https://id.parliament.uk/schema/partyMemberHasPartyMembership": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/MQI4Jx9p",
+      },
+    ],
+    "https://id.parliament.uk/schema/personFamilyName": Array [
+      Object {
+        "type": "literal",
+        "value": "Rashid",
+      },
+    ],
+    "https://id.parliament.uk/schema/personGivenName": Array [
+      Object {
+        "type": "literal",
+        "value": "Mian",
+      },
+    ],
+  },
+  "https://id.parliament.uk/06MF61pB": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/SeatIncumbency",
+      },
+    ],
+    "https://id.parliament.uk/schema/seatIncumbencyHasHouseSeat": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/6OxaGQ6E",
+      },
+    ],
+  },
+  "https://id.parliament.uk/0832U9Ac": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/HouseSeat",
+      },
+    ],
+    "https://id.parliament.uk/schema/houseSeatHasConstituencyGroup": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/d3Sii84i",
+      },
+    ],
+    "https://id.parliament.uk/schema/houseSeatHasHouse": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/1AFu55Hs",
+      },
+    ],
+  },
+  "https://id.parliament.uk/08kc1YxN": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/ConstituencyGroup",
+      },
+    ],
+    "https://id.parliament.uk/schema/constituencyGroupName": Array [
+      Object {
+        "type": "literal",
+        "value": "Newcastle upon Tyne North",
+      },
+    ],
+  },
+  "https://id.parliament.uk/09z40E7e": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/ConstituencyGroup",
+      },
+    ],
+    "https://id.parliament.uk/schema/constituencyGroupName": Array [
+      Object {
+        "type": "literal",
+        "value": "Hackney South and Shoreditch",
+      },
+    ],
+  },
+  "https://id.parliament.uk/0BN9aid8": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/ConstituencyGroup",
+      },
+    ],
+    "https://id.parliament.uk/schema/constituencyGroupName": Array [
+      Object {
+        "type": "literal",
+        "value": "Darlington",
+      },
+    ],
+  },
+  "https://id.parliament.uk/0BSGxSxL": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/SeatIncumbency",
+      },
+    ],
+    "https://id.parliament.uk/schema/seatIncumbencyHasHouseSeat": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/QjnQx3Hb",
+      },
+    ],
+  },
+  "https://id.parliament.uk/0BhROnYP": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/HouseSeat",
+      },
+    ],
+    "https://id.parliament.uk/schema/houseSeatHasConstituencyGroup": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/5bX5Se0u",
+      },
+    ],
+    "https://id.parliament.uk/schema/houseSeatHasHouse": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/1AFu55Hs",
+      },
+    ],
+  },
+  "https://id.parliament.uk/0C7zuh3k": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/MemberImage",
+      },
+    ],
+  },
+  "https://id.parliament.uk/0Duke3bT": Object {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/schema/SeatIncumbency",
+      },
+    ],
+    "https://id.parliament.uk/schema/seatIncumbencyHasHouseSeat": Array [
+      Object {
+        "type": "uri",
+        "value": "https://id.parliament.uk/IgNrgXjQ",
+      },
+    ],
+  },
+}
+`;

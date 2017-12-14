@@ -1,0 +1,32 @@
+{
+  "name": "uk-mps-parser",
+  "version": "0.0.1",
+  "description": "Parse http://beta.parliament.uk endopints into compacted JSON",
+  "main": "src/index.js",
+  "scripts": {
+    "parse": "babel-node src/index",
+    "clean": "rimraf coverage",
+    "lint": "eslint src/**/*.js",
+    "package": "yarn run clean && rimraf node_modules",
+    "test": "jest --config jest.config.json --env=jsdom"
+  },
+  "author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
+  "license": "MIT",
+  "devDependencies": {
+    "codecov": "^2.3.0",
+    "eslint": "4.10.0",
+    "jest": "^21.1.0",
+    "jest-cli": "^21.1.0"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-object-rest-spread": "7.0.0-beta.34",
+    "axios": "0.17.1",
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.0.3",
+    "babel-plugin-module-resolver": "3.0.0",
+    "babel-preset-env": "1.6.1",
+    "bluebird": "3.5.1",
+    "gh-pages": "1.1.0",
+    "prettier": "1.9.2"
+  }
+}

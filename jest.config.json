@@ -1,0 +1,18 @@
+{
+	"verbose": true,
+	"modulePaths": [
+		"<rootDir>"
+	],
+	"moduleFileExtensions": [
+		"js"
+	],
+	"testRegex": "/test/.*\\.test\\.(js)$",
+	"collectCoverage": true,
+	"collectCoverageFrom": [
+		"src/**/*.{js}"
+	],
+	"coveragePathIgnorePatterns": [
+		"src/index"
+	],
+	"coverageDirectory": "<rootDir>/coverage"
+}
