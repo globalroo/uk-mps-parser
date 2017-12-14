@@ -8,12 +8,12 @@
     "clean": "rimraf coverage",
     "lint": "eslint src/**/*.js",
     "package": "yarn run clean && rimraf node_modules",
-    "test": "jest --config jest.config.json --env=jsdom"
+    "test": "jest --config jest.config.json --env=jsdom && codecov"
   },
   "author": "Andrew Davies <globalroo@hotmail.com> (http://github.com/globalroo)",
   "license": "MIT",
   "devDependencies": {
-    "codecov": "^2.3.0",
+    "codecov": "3.0.0",
     "eslint": "4.10.0",
     "jest": "^21.1.0",
     "jest-cli": "^21.1.0"
