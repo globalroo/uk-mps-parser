@@ -48,17 +48,17 @@ describe("Helper tests", () => {
 		expect(testField).toBeUndfined;
 	});
 
-	test("get the tail of a key value", () => {
+	test("Get the tail of a key value", () => {
 		const test = getTailOfKey("http://example.com/tail");
 		expect(test).toBe("tail");
 	});
 
-	test("get the tail of a key value when no value sent through", () => {
+	test("Get the tail of a key value when no value sent through", () => {
 		const test = getTailOfKey();
 		expect(test).toBe("");
 	});
 
-	test(" Get Value from Key Pair", () => {
+	test("Get Value from Key Pair", () => {
 		const mockData = [
 			{
 				value: "Ms Diane Abbott",
@@ -69,7 +69,7 @@ describe("Helper tests", () => {
 		expect(result).toBe("Ms Diane Abbott");
 	});
 
-	test(" Get Value from Key Pair when bad data passed through i.e. undefined", () => {
+	test("Get Value from Key Pair when bad data passed through i.e. undefined", () => {
 		const result = getValueFromKeyPair();
 		expect(result).toBe(undefined);
 	});
