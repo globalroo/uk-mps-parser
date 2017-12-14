@@ -44,7 +44,7 @@ __into something more manageable, like this:__
 ```
 You can see the result in the __data/processed.json__ file.
 
-The file is now in a consumable format for the memory game. Ready to update the client side React (https://www.github/globalroo/uk-mps).
+The file is now in a consumable format for the memory game. Ready to update the client side React (https://github.com/globalroo/uk-mps).
 
 The requests to the server are deliberately staggered to prevent overloading them. You shouldn't need to regenerate the file too often anyway!
 
