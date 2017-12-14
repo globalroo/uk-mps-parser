@@ -42,7 +42,7 @@ __into something more manageable, like this:__
 	"remoteImage": "https://api.parliament.uk/Live/photo/404.jpeg?crop=CU_1:1&width=186&quality=80"
 }]
 ```
-You can see the result in the data/processed.json file.
+You can see the result in the __data/processed.json__ file.
 
 The file is now in a consumable format for the memory game. Ready to update the client side React (https://www.github/globalroo/uk-mps).
 
