@@ -1,4 +1,4 @@
-# uk-mps-parser [![Build Status](https://travis-ci.org/globalroo/uk-mps-parser.svg?branch=master)](https://travis-ci.org/globalroo/uk-mps-parser)[![Dependency Status](https://dependencyci.com/github/globalroo/uk-mps-parser/badge)](https://dependencyci.com/github/globalroo/uk-mps-parser)[![codecov](https://codecov.io/gh/globalroo/uk-mps-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/uk-mps-parser)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+# uk-mps-parser [![Build Status](https://travis-ci.org/globalroo/uk-mps-parser.svg?branch=master)](https://travis-ci.org/globalroo/uk-mps-parser)[![Dependency Status](https://dependencyci.com/github/globalroo/uk-mps-parser/badge?v1)](https://dependencyci.com/github/globalroo/uk-mps-parser?v1)[![codecov](https://codecov.io/gh/globalroo/uk-mps-parser/branch/master/graph/badge.svg)](https://codecov.io/gh/globalroo/uk-mps-parser)[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ## Brief description
 
