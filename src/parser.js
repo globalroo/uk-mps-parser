@@ -10,6 +10,7 @@ import {
 } from "src/helpers";
 
 import { getMPExtendedInfo } from "src/get-extended-mp-info";
+import { getTwitterProfileImage } from "./helpers";
 
 export const PROCESSED_DATA_FILE = "data/processed.json";
 
@@ -47,7 +48,8 @@ export const getMemberData = async (members = {}) => {
 					),
 					remoteImage: getRemoteThumbnailPortrait(
 						getTailOfKey(getValueFromKeyPair(recordData[MEMBER_IMAGE_KEY]))
-					)
+					),
+					twitterImage: getTwitterProfileImage(extendedMPInfo.personHasTwitterWebLink)
 				});
 			}
 		}

@@ -4,7 +4,8 @@ import {
 	getValueFromKeyPair,
 	getRemoteThumbnailPortrait,
 	getUsefulField,
-	getTailOfKey
+	getTailOfKey,
+	getTwitterProfileImage
 } from "src/helpers";
 
 describe("Helper tests", () => {
@@ -73,4 +74,15 @@ describe("Helper tests", () => {
 		const result = getValueFromKeyPair();
 		expect(result).toBe(undefined);
 	});
+
+	test("Get Twitter avatar image if available", () => {
+		const result = getTwitterProfileImage("globalroo");
+		expect(result).toBe("https://res.cloudinary.com/globalroo/image/twitter_name/w_300/globalroo.jpeg");
+	});
+
+	test("Get Twitter avatar image returns undefined if not available", () => {
+		const result = getTwitterProfileImage();
+		expect(result).toBe(undefined);
+	});
+
 });

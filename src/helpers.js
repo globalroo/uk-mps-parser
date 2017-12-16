@@ -26,6 +26,15 @@ export const ALL_PARLIAMENT_MEMBERS =
 
 export const getThumbnailPortrait = (id = "404") => `images/${id}.jpeg`;
 
+const TWITTER_AVATAR_WIDTH = 300;
+
+export const getTwitterProfileImage = (url) => {
+	if (url) {
+		const username = getTailOfKey(url);
+		return `https://res.cloudinary.com/globalroo/image/twitter_name/w_${TWITTER_AVATAR_WIDTH}/${username}.jpeg`;
+	}
+};
+
 export const getRemoteThumbnailPortrait = (id = "404") =>
 	`https://api.parliament.uk/Live/photo/${id}.jpeg?crop=CU_1:1&width=186&quality=80`;
 
