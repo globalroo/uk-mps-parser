@@ -39,7 +39,8 @@ __into something more manageable, like this:__
 	"email": "daniel.poulter.mp@parliament.uk",
 	"phoneNumber": "020 7219 7038",
 	"localImage": "images/404.jpeg",
-	"remoteImage": "https://api.parliament.uk/Live/photo/404.jpeg?crop=CU_1:1&width=186&quality=80"
+	"remoteImage": "https://api.parliament.uk/Live/photo/404.jpeg?crop=CU_1:1&width=186&quality=80",
+	"twitterImage":"https://res.cloudinary.com/globalroo/image/twitter_name/w_300/globalroo.jpeg"
 }]
 ```
 You can see the result in the __data/processed.json__ file.
