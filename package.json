@@ -1,6 +1,6 @@
 {
   "name": "uk-mps-parser",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parse http://beta.parliament.uk endopints into compacted JSON",
   "main": "src/index.js",
   "scripts": {
