@@ -21,10 +21,20 @@ const meaningfulFields = {
 	postCode: "postCode"
 };
 
+const MISSING_IMAGE_NAME = "404";
+
 export const ALL_PARLIAMENT_MEMBERS =
 	"https://api.parliament.uk/Live/fixed-query/house_current_members?house_id=1AFu55Hs&format=application%2Fjson";
 
-export const getThumbnailPortrait = (id = "404") => `images/${id}.jpeg`;
+export const getThumbnailPortrait = (id) => {
+	let imageName = id || MISSING_IMAGE_NAME;
+	return `images/${imageName}.jpeg`;
+};
+
+export const getRemoteThumbnailPortrait = (id) => {
+	let imageName = id || MISSING_IMAGE_NAME;
+	return `https://api.parliament.uk/Live/photo/${imageName}.jpeg?crop=CU_1:1&width=186&quality=80`;
+};
 
 const TWITTER_AVATAR_WIDTH = 300;
 
@@ -34,9 +44,6 @@ export const getTwitterProfileImage = (url) => {
 		return `https://res.cloudinary.com/globalroo/image/twitter_name/w_${TWITTER_AVATAR_WIDTH}/${username}.jpeg`;
 	}
 };
-
-export const getRemoteThumbnailPortrait = (id = "404") =>
-	`https://api.parliament.uk/Live/photo/${id}.jpeg?crop=CU_1:1&width=186&quality=80`;
 
 export const getUsefulField = (key = "") => meaningfulFields[key];
 
