@@ -54,6 +54,6 @@ For my React client, I have added them to an images directory so I don't hit the
 
 ```sh
 	yarn
-	yarn test // run tests and coverage
-	yarn parse // update data/processed.json
+	yarn test //run tests and coverage
+	yarn parse //update data/processed.json
 ```
